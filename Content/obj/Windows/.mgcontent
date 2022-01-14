@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>Windows</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/malmk/source/repos/TDG/Content/Background.png</File>
+    <File>C:/Users/malmk/source/repos/TDG/Content/Bullet.png</File>
+    <File>C:/Users/malmk/source/repos/TDG/Content/FastTower.png</File>
+    <File>C:/Users/malmk/source/repos/TDG/Content/Font.spritefont</File>
+    <File>C:/Users/malmk/source/repos/TDG/Content/HeavyEnemy.png</File>
+    <File>C:/Users/malmk/source/repos/TDG/Content/LightEnemy.png</File>
+    <File>C:/Users/malmk/source/repos/TDG/Content/Particle.png</File>
+    <File>C:/Users/malmk/source/repos/TDG/Content/StrongTower.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
