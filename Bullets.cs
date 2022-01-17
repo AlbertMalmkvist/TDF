@@ -10,7 +10,7 @@ namespace TDG
         Rectangle hitbox;
         Vector2 velo;
         int Damage;
-        float speed = 100.0f;
+        float speed = 0.1f;
         public Bullets(Texture2D texture, Vector2 position, Rectangle hitboxs, int dama, Vector2 velocity)
         {
             velo = velocity;

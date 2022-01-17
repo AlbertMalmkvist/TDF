@@ -96,8 +96,8 @@ namespace TDG
             Font = Content.Load<SpriteFont>("Font");
 
             bulletList = new List<Bullets>();
-            Rectangle ImpZone = new Rectangle(-100, -100, Hit.Width, Hit.Height);
-            bullets = new Bullets(Hit, new Vector2(-100, -100), ImpZone, 0, Vector2.Zero);
+            Rectangle ImpZone = new Rectangle(300, 300, Hit.Width, Hit.Height);
+            bullets = new Bullets(Hit, new Vector2(300, 300), ImpZone, 0, Vector2.Zero);
             bulletList.Add(bullets);
             bulletList.Add(bullets);
             bulletList.Add(bullets);
@@ -326,6 +326,8 @@ namespace TDG
                             Rectangle ImpZone = new Rectangle((int)TP.X - Hit.Width / 2, (int)TP.Y - Hit.Height / 2, Hit.Width, Hit.Height);
                             bullets = new Bullets(Hit, TP, ImpZone, 5, BA);
                             bulletList.Add(bullets);
+                            bullets = new Bullets(Hit, TP, ImpZone, 5, new Vector2(1,1));
+                            bulletList.Add(bullets);
                             System.Diagnostics.Debug.WriteLine("f1");
                         }
                         else
@@ -373,9 +375,9 @@ namespace TDG
                             hurttimer = 0;
                                 System.Diagnostics.Debug.WriteLine("hit");
                             }
+                        bulletList.Remove(bullets);
                         }
 
-                        bulletList.Remove(bullets);
                     }
                     break;
 
@@ -499,9 +501,9 @@ namespace TDG
                                 fEnemy.Health = 30;
                                 Coins += 70;
                             }
+                        bulletList.Remove(bullets);
                         }
 
-                        bulletList.Remove(bullets);
                     }
                     break;
 
@@ -539,10 +541,6 @@ namespace TDG
             // TODO: Add your drawing code here
             spriteBatch.Begin();
             GraphicsDevice.Clear(Color.White);
-            foreach (Bullets bullets in bulletList)
-            {
-                bullets.Draw(spriteBatch);
-            }
 
 
             switch (CurrentGameState)
@@ -554,6 +552,10 @@ namespace TDG
                 case GameState.Level1:
                     spriteBatch.Draw(BG, Vector2.Zero, Color.White);
 
+                    foreach (Bullets bullets in bulletList)
+                    {
+                        bullets.Draw(spriteBatch);
+                    }
                     for (int i = 0; i < 43; i++)
                     {
                         Epaths[i].Draw(spriteBatch);
@@ -586,6 +588,10 @@ namespace TDG
                         engine.Draw(spriteBatch);
                     }
 
+                    foreach (Bullets bullets in bulletList)
+                    {
+                        bullets.Draw(spriteBatch);
+                    }
                     spriteBatch.Draw(miniMap, viewSize, Color.White);
                     break;
 
@@ -635,6 +641,10 @@ namespace TDG
                     spriteBatch.DrawString(Font, "press right mouse button to try again and press left to quit the game", new Vector2(100, 450), Color.Black);
 
                     break;
+            }
+            foreach (Bullets bullets in bulletList)
+            {
+                bullets.Draw(spriteBatch);
             }
             spriteBatch.End();
 
