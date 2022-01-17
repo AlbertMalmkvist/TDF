@@ -1,6 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/malmk/source/repos/TDG/Content/FastTower.png","C:/Users/malmk/source/repos/TDG/Content/bin/Windows/FastTower.xnb","TextureProcessor","Texture2DContent",13447,10085,0,1718875
-"C:/Users/malmk/source/repos/TDG/Content/Font.spritefont","C:/Users/malmk/source/repos/TDG/Content/bin/Windows/Font.xnb","FontDescriptionProcessor","SpriteFontContent",2008,136226,0,1532492
-"C:/Users/malmk/source/repos/TDG/Content/HeavyEnemy.png","C:/Users/malmk/source/repos/TDG/Content/bin/Windows/HeavyEnemy.xnb","TextureProcessor","Texture2DContent",10922,22585,0,0034923
-"C:/Users/malmk/source/repos/TDG/Content/LightEnemy.png","C:/Users/malmk/source/repos/TDG/Content/bin/Windows/LightEnemy.xnb","TextureProcessor","Texture2DContent",7592,22585,0,0033472
-"C:/Users/malmk/source/repos/TDG/Content/StrongTower.png","C:/Users/malmk/source/repos/TDG/Content/bin/Windows/StrongTower.xnb","TextureProcessor","Texture2DContent",259,19685,0,0062227
+"C:/Users/malmk/source/repos/TDF/Content/Background.png","C:/Users/malmk/source/repos/TDF/Content/bin/Windows/Background.xnb","TextureProcessor","Texture2DContent",12048,5760085,0,3987059
+"C:/Users/malmk/source/repos/TDF/Content/BPath.png","C:/Users/malmk/source/repos/TDF/Content/bin/Windows/BPath.xnb","TextureProcessor","Texture2DContent",1071,160085,0,0093017
+"C:/Users/malmk/source/repos/TDF/Content/Bullet.png","C:/Users/malmk/source/repos/TDF/Content/bin/Windows/Bullet.xnb","TextureProcessor","Texture2DContent",386,1685,0,0046502
+"C:/Users/malmk/source/repos/TDF/Content/Path.png","C:/Users/malmk/source/repos/TDF/Content/bin/Windows/Path.xnb","TextureProcessor","Texture2DContent",1071,40085,0,0070059

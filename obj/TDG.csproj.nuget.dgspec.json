@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\malmk\\source\\repos\\TDG\\TDG.csproj": {}
+    "C:\\Users\\malmk\\source\\repos\\TDF\\TDG.csproj": {}
   },
   "projects": {
-    "C:\\Users\\malmk\\source\\repos\\TDG\\TDG.csproj": {
+    "C:\\Users\\malmk\\source\\repos\\TDF\\TDG.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\malmk\\source\\repos\\TDG\\TDG.csproj",
+        "projectUniqueName": "C:\\Users\\malmk\\source\\repos\\TDF\\TDG.csproj",
         "projectName": "TDG",
-        "projectPath": "C:\\Users\\malmk\\source\\repos\\TDG\\TDG.csproj",
+        "projectPath": "C:\\Users\\malmk\\source\\repos\\TDF\\TDG.csproj",
         "packagesPath": "C:\\Users\\malmk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\malmk\\source\\repos\\TDG\\obj\\",
+        "outputPath": "C:\\Users\\malmk\\source\\repos\\TDF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

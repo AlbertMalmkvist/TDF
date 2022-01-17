@@ -10,9 +10,9 @@ namespace TDG
     class Tower
     {
         public Vector2 Pos { get; set; }
-        public tower(Vector2 pos)
+        public Tower(Vector2 pos)
         {
-            this.Pos = pos
+            this.Pos = pos;
         }
     }
 }

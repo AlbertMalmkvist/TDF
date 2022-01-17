@@ -4,16 +4,20 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/malmk/source/repos/TDG/Content/Background.png</File>
-    <File>C:/Users/malmk/source/repos/TDG/Content/Bullet.png</File>
-    <File>C:/Users/malmk/source/repos/TDG/Content/FastTower.png</File>
-    <File>C:/Users/malmk/source/repos/TDG/Content/Font.spritefont</File>
-    <File>C:/Users/malmk/source/repos/TDG/Content/HeavyEnemy.png</File>
-    <File>C:/Users/malmk/source/repos/TDG/Content/LightEnemy.png</File>
-    <File>C:/Users/malmk/source/repos/TDG/Content/Particle.png</File>
-    <File>C:/Users/malmk/source/repos/TDG/Content/StrongTower.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/Background.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/BPath.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/Bullet.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/FastTower.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/Font.spritefont</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/HeavyEnemy.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/LightEnemy.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/Particle.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/Path.png</File>
+    <File>C:/Users/malmk/source/repos/TDF/Content/StrongTower.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

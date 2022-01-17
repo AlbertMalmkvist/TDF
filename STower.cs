@@ -5,13 +5,13 @@ namespace TDG
 {
     class STower : Tower
     {
-        public int Damage = 3;
+        public int Damage = 10;
         Texture2D tex;
-        int delay = 30;
-        int Attack = 0;
+        int delay = 15;
+        int attack = 0;
         int Timer;
 
-        public STower(Texture2D texture) : base(pos: Pos)
+        public STower(Texture2D texture, Vector2 Pos) : base(Pos)
         {
             this.tex = texture;
         }
@@ -21,30 +21,46 @@ namespace TDG
             if (Timer <= gametime.ElapsedGameTime.Milliseconds)
             {
                 Timer = gametime.ElapsedGameTime.Milliseconds;
-                Attack++;
+                attack++;
             }
 
         }
 
-        public int attack()
+        public int Attack()
         {
-            if (Attack > delay)
+            if (attack > delay)
             {
-                Attack = 0;
+                attack = 0;
                 return Damage;
             }
             return 0;
         }
 
+        public Vector2 TWhere()
+        {
+            return Pos;
+        }
+
         public Rectangle HitBox()
         {
-            int tey = tex.Height * 3;
+            int tey = tex.Height;
             tey = tey / 2;
 
-            int tew = tex.Height * 3;
+            int tew = tex.Height;
             tew = tew / 2;
-            return new Rectangle((int)Pos.X - tew, (int)Pos.Y - tey, tex.Width * 3, tex.Height * 3);
+            return new Rectangle((int)Pos.X - tew, (int)Pos.Y - tey, tex.Width, tex.Height);
         }
+
+        public Rectangle AttackArea()
+        {
+            int tey = tex.Height * 11;
+            tey = tey / 2;
+
+            int tew = tex.Height * 11;
+            tew = tew / 2;
+            return new Rectangle((int)Pos.X - tew, (int)Pos.Y - tey, tex.Width * 11, tex.Height * 11);
+        }
+
         public void Draw(SpriteBatch spriteBatch)
         {
             Rectangle sourceRectangle = new Rectangle((int)Pos.X - tex.Width / 2, (int)Pos.Y - tex.Height / 2, tex.Width, tex.Height);

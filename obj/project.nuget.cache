@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cknBPvouMEbvY3Z3M5ojAZUuCGKQiQQnfSjCIGQNWPuutGqjJZ2l8mEKQD3XiiSCiWvmBNf9F43iNMPL+2bbw==",
+  "dgSpecHash": "ZVcA+8XH/eTs6mi++0sZsNQcoOLK17Q5OERsDZJiKcE9FJEzY/oUOkcP1E5YyxayZDv92eF2Zrj/YNQkC/+rkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\malmk\\source\\repos\\TDG\\TDG.csproj",
+  "projectFilePath": "C:\\Users\\malmk\\source\\repos\\TDF\\TDG.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\malmk\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
     "C:\\Users\\malmk\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\1.1.0\\microsoft.codeanalysis.analyzers.1.1.0.nupkg.sha512",
